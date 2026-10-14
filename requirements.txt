@@ -24,3 +24,11 @@ streamlit
 langchain-huggingface
 langchain_tavily
 yfinance
+sentence-transformers
+torch
+langchain-text-splitters
+langgraph
+faiss-cpu
+pandas
+pydantic
+plotly
