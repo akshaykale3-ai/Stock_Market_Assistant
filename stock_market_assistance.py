@@ -64,10 +64,9 @@ print("Environment variables loaded successfully.")
 # Step 3: LLM integration (LangChain + Groq)
 
 llm = ChatGroq(
-    model="qwen/qwen3.8-27b",
-    temperature=0.2,
-    reasoning_format="hidden"
-)
+       model="openai/gpt-oss-20b",
+       temperature=0.2
+   )
 
 
 # Step 4: Define LangChain tools for stock data and news
