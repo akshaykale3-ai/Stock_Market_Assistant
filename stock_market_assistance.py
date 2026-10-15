@@ -65,7 +65,7 @@ print("Environment variables loaded successfully.")
 
 llm = ChatGroq(
     model="qwen/qwen3.8-27b",
-    temperature=0.2
+    temperature=0.2,
     reasoning_format="hidden"
 )
 
